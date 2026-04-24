@@ -11,6 +11,7 @@ Live site: <https://zfchen585-design.github.io/Jeff_web/>
 - `script.js` - section navigation and hash routing.
 - `assets/Zhaofu_Jeff_Chen_Resume.pdf` - resume PDF.
 - `assets/CCAM_Poster_DONE.pdf` - CCAM poster PDF.
+- `assets/profile-photo.jpg` - sidebar profile image.
 - `assets/ccam-poster-preview.png` - poster preview image.
 
 ## GitHub Pages
