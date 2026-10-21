@@ -9,7 +9,7 @@ Live site: <https://zfchen585-design.github.io/Jeff_web/>
 - `index.html` - site content and sections.
 - `styles.css` - responsive academic-style layout.
 - `script.js` - section navigation and hash routing.
-- `assets/Zhaofu_Jeff_Chen_CV_2026.pdf` - October 2026 CV supplied for this update.
+- `assets/Zhaofu_Jeff_Chen_CV_2026.pdf` - October 2026 CV with a clickable website link and updated ChemRxiv status.
 - `assets/APS_ENZ_Poster_2026.pdf` - APS conducting-polymer ENZ poster.
 - `assets/IRT_Memristor_Poster_2026.pdf` - CALIT2 UROP IRT memristor poster.
 - `assets/CCAM_Poster_DONE.pdf` - earlier CCAM poster.
