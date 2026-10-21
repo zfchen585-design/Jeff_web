@@ -370,6 +370,21 @@ a:hover {
   padding-left: 0.25rem;
 }
 
+.skill-list {
+  margin: 0.45rem 0 0;
+  padding-left: 1.15rem;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.skill-list li + li {
+  margin-top: 0.55rem;
+}
+
+.skill-list strong {
+  color: var(--ink);
+}
+
 .status-note {
   padding: 1rem 1.2rem;
   border-left: 3px solid var(--accent);

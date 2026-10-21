@@ -18,6 +18,8 @@ Live site: <https://zfchen585-design.github.io/Jeff_web/>
 
 The medium-entropy-oxide manuscript had a ChemRxiv version in 2025 that was later withdrawn. Its entry on the site describes the current revision status. Do not present the old version or its screenshot as an active preprint.
 
+Publication entries distinguish peer-reviewed work, a submitted manuscript, a manuscript under revision, and work still in preparation. The Skills & Instruments section names equipment only where the supplied CV, poster, or earlier CV records support it.
+
 ## GitHub Pages
 
 This repository is published from the `main` branch root folder.
