@@ -181,6 +181,28 @@ a:hover {
   letter-spacing: 0;
 }
 
+.eyebrow,
+.project-lab,
+.poster-event {
+  display: block;
+  color: var(--accent);
+  font-family: var(--sans);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.eyebrow {
+  margin: 0 0 0.7rem;
+}
+
+.section-lede {
+  margin: -1.1rem 0 2rem;
+  color: var(--muted);
+  font-size: 1.04rem;
+}
+
 .subsection-title {
   margin: 3rem 0 1.35rem;
   padding-bottom: 0.45rem;
@@ -244,6 +266,24 @@ a:hover {
   font-style: italic;
 }
 
+.focus-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  max-width: 820px;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--line);
+  font-family: var(--sans);
+  font-size: 0.84rem;
+}
+
+.focus-strip span {
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
 .bib-list {
   list-style: none;
   margin: 0;
@@ -299,6 +339,7 @@ a:hover {
 }
 
 .project-item h4,
+.project-item h3,
 .skill-group h3,
 .contact-list h3 {
   margin: 0 0 0.4rem;
@@ -306,6 +347,35 @@ a:hover {
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.35;
+}
+
+.project-item h3 {
+  margin-top: 0.45rem;
+}
+
+.project-item a {
+  display: inline-block;
+  margin-top: 0.8rem;
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.manuscript-list {
+  padding-left: 1.3rem;
+}
+
+.manuscript-list li {
+  margin: 0 0 1.05rem;
+  padding-left: 0.25rem;
+}
+
+.status-note {
+  padding: 1rem 1.2rem;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  color: var(--muted);
+  font-size: 0.92rem;
 }
 
 .project-item p,
@@ -323,6 +393,49 @@ a:hover {
 
 .poster-figure {
   margin: 0 0 1.7rem;
+}
+
+.poster-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.4rem;
+}
+
+.poster-card {
+  min-width: 0;
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.poster-card a {
+  display: block;
+  padding: 0.6rem;
+  background: #f5f6f5;
+}
+
+.poster-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+}
+
+.poster-card figcaption {
+  display: grid;
+  gap: 0.35rem;
+  padding: 1rem 1.1rem 1.2rem;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.poster-card figcaption strong {
+  color: var(--ink);
+  font-size: 0.96rem;
 }
 
 .poster-figure a {
@@ -446,6 +559,7 @@ a:hover {
 
   .project-list,
   .skill-grid,
+  .poster-grid,
   .contact-list {
     grid-template-columns: 1fr;
   }

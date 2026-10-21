@@ -28,6 +28,13 @@ navLinks.forEach((link) => {
   link.addEventListener("click", () => activateSection(link.dataset.target));
 });
 
+document.querySelectorAll("[data-section-link]").forEach((link) => {
+  link.addEventListener("click", (event) => {
+    event.preventDefault();
+    activateSection(link.dataset.sectionLink);
+  });
+});
+
 const initialHash = window.location.hash.replace("#", "");
 if (initialHash) {
   activateSection(initialHash, false);
